@@ -8,14 +8,16 @@
 #include <cstdlib>
 #include <string>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 /*
  * 
  */
 int main(int argc, char** argv) {
-
-    cout << "Hi";
+    vector<int> test (10);
+    test[0]=1;
+    cerr<<test[0];
     return 0;
 }
 
